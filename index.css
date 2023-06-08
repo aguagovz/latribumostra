@@ -1,6 +1,31 @@
+footer { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 1420px;
+    background-color: rgb(211, 32, 32);
+}
+
 a {
-    color: fuchsia;
+    color: rgb(2, 126, 133);
     text-decoration: none;
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.adress img {
+    width: 50px;
+}
+
+.social img {
+    width: 40px;    
 }
 
 header {
